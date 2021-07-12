@@ -1,0 +1,38 @@
+:root {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+html {
+  font-family: Gargi, sans-serif;
+  font-weight: 400;
+  width: 87vw;
+  height: 97vh;
+  margin: 0 auto;
+  border: 1px solid red;
+  position: relative;
+}
+
+main {
+  width: 80vw;
+  height: 50vh;
+  margin: 0 auto;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background: #1ee397 linear-gradient(90deg, #1ee397 19%, #00d4ff 100%);
+}
+
+.container {
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+/*# sourceMappingURL=style.css.map */
